@@ -3,21 +3,21 @@
   <groupId>me.nekorise</groupId>
   <artifactId>xlib</artifactId>
   <versioning>
-    <lastUpdated>20240430130444</lastUpdated>
+    <lastUpdated>20240430130748</lastUpdated>
     <snapshot>
-      <timestamp>20240430.130444</timestamp>
+      <timestamp>20240430.130748</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>1.0-20240430.130444-1</value>
-        <updated>20240430130444</updated>
+        <value>1.0-20240430.130748-1</value>
+        <updated>20240430130748</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0-20240430.130444-1</value>
-        <updated>20240430130444</updated>
+        <value>1.0-20240430.130748-1</value>
+        <updated>20240430130748</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
