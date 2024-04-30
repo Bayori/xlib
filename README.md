@@ -1,5 +1,5 @@
 
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
+![Logo](https://github.com/Bayori/xlib/blob/main/logoXLIB.png?raw=true)
 
 
 ## Подключение зависимостей
@@ -21,6 +21,8 @@
     </dependency>
 </dependencies>
 ```
+Так же необходимо добавить .jar библиотеки на сервер -> [Скачать](https://github.com/Bayori/xlib/releases)
+Если ты не хочешь заставлять администраторов сервера добавлять отдельный .jar для твоего плагина, то используй shade-plugin в своеём проекте для этой библиотеки
 
 # Класс Numeric
 |       Функция      |           Параметры          | Возвращает (Тип) |                                                           Описание                                                          |
