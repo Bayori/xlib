@@ -1,0 +1,7 @@
+name: xlib
+version: '${project.version}'
+main: me.nekorise.xlib
+api-version: '1.20'
+prefix: xlib
+authors: [Nekorise]
+description: xlib special for Tekorise

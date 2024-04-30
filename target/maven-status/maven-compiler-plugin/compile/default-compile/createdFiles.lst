@@ -2,4 +2,5 @@ me\nekorise\Plugins\ServerUtils.class
 me\nekorise\Heads\Skull.class
 me\nekorise\Hex\HEX.class
 me\nekorise\ConsoleLogs\Log.class
+me\nekorise\xlib.class
 me\nekorise\NumericUtils\Numeric.class
