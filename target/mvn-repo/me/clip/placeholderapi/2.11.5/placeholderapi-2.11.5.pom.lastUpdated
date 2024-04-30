@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Apr 10 03:41:50 YEKT 2024
+https\://repo.extendedclip.com/content/repositories/placeholderapi/.lastUpdated=1712702510683
+https\://repo.papermc.io/repository/maven-public/.lastUpdated=1712702490390
+@default-sonatype-https\://oss.sonatype.org/content/groups/public/.lastUpdated=1712702510488
+https\://oss.sonatype.org/content/groups/public/.error=Could not transfer artifact me.clip\:placeholderapi\:pom\:2.11.5 from/to sonatype (https\://oss.sonatype.org/content/groups/public/)\: Connect to oss.sonatype.org\:443 [oss.sonatype.org/34.232.1.117, oss.sonatype.org/35.170.150.89] failed\: Connect timed out
+https\://repo.papermc.io/repository/maven-public/.error=
