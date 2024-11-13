@@ -7,8 +7,8 @@
 ```xml
 </repositories>
     <repository>
-        <id>xlib-mvn-repo</id>
-        <url>https://raw.github.com/Bayori/xlib/main/target/mvn-repo</url>
+        <id>xlib-repo</id>
+        <url>https://maven.pkg.github.com/Bayori/xlib</url>
     </repository>
 </repositories>
 ```
@@ -17,7 +17,7 @@
     <dependency>
         <groupId>me.nekorise</groupId>
         <artifactId>xlib</artifactId>
-        <version>1.0</version>
+        <version>1.1</version>
     </dependency>
 </dependencies>
 ```
@@ -36,7 +36,13 @@
 |      chance()      |        double percent        |      boolean     |                                  Возвращает `true`/`false` в соответствии с заданным шансом                                 |
 |    randomRange()   |       int min, int max       |        int       |                                     Возвращает случайное значение из заданного диапазона                                    |
 
-# Класс HEX
+# Класс MMessage
+|     Функция     |                     Параметры                    | Возвращает (Тип) |                                Описание                               |
+|:---------------:|:------------------------------------------------:|:----------------:|:---------------------------------------------------------------------:|
+|   applyColor()  |                     String text                     |      Component      |                  Возвращает отформатированный Component по формату MiniMessage                  |
+|  applyColorWithAmpersand()   |                  String text                  |      Component      |        Сначала форматирует строку, вызывая HEX.applyColor(), после чего возвращает отформатированный Component по формату MiniMessage        |
+
+# Класс HEX (Legacy)
 |     Функция     |                     Параметры                    | Возвращает (Тип) |                                Описание                               |
 |:---------------:|:------------------------------------------------:|:----------------:|:---------------------------------------------------------------------:|
 |   applyColor()  |                     String s                     |      String      |                  Возвращает отформатированную строку                  |
