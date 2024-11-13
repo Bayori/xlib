@@ -14,6 +14,7 @@ public class HEX {
      * @param s Parseable Text
      * @return String containing colorized text to be used in minecraft
      */
+    @Deprecated
     public static String applyColor(String s) {
         s = ChatColor.translateAlternateColorCodes(ChatColor.COLOR_CHAR, s);
         s = findAndReplaceRegex("!#[0-9,a-f,A-F]{6}", s);
@@ -47,6 +48,7 @@ public class HEX {
      * @param message The message to be rainbowified
      * @return rainbowified message
      */
+    @Deprecated
     public static String rainbowText(String message) {
         StringBuilder finalizedMessage = new StringBuilder();
         int hue = 0;
@@ -72,6 +74,7 @@ public class HEX {
      * @param endColor color that text should end with
      * @return gradient formatted message
      */
+    @Deprecated
     public static String gradientText(String message, Color startColor, Color endColor) {
         StringBuilder finalizedMessage = new StringBuilder();
         for(int messageChar = 0; messageChar < message.toCharArray().length; messageChar++) {

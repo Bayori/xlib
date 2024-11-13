@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="xlib:jar">
+    <output-path>$PROJECT_DIR$/../121_test/plugins</output-path>
+    <root id="archive" name="xlib.jar">
+      <element id="module-output" name="xlib" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/commons-lang/commons-lang/2.4/commons-lang-2.4.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
