@@ -41,6 +41,7 @@
 |:---------------:|:------------------------------------------------:|:----------------:|:---------------------------------------------------------------------:|
 |   applyColor()  |                     String text                     |      Component      |                  Возвращает отформатированный Component по формату MiniMessage                  |
 |  applyColorWithAmpersand()   |                  String text                  |      Component      |        Сначала форматирует строку, вызывая HEX.applyColor(), после чего возвращает отформатированный Component по формату MiniMessage        |
+|  applyListColor()   |                  List<String> texts                  |      List<Component>      |        Возвращает отформатированный List<Component> по формату MiniMessage        |
 
 # Класс HEX (Legacy)
 |     Функция     |                     Параметры                    | Возвращает (Тип) |                                Описание                               |
